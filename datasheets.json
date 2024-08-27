@@ -1,0 +1,575 @@
+{
+    "angron" : {
+        "title": "Angron",
+        "basesize": "100mm",
+        "movement": "14\"",
+        "toughness": "11",
+        "save": "2+",
+        "invuln": "4+",
+        "wounds": "16",
+        "leadership": "5+",
+        "oc": "6",
+        "rangedweapons": [
+    
+        ],
+        "meleeweapons": [
+            {
+                "title": "Samni'arius and Spinegrinder",
+                "profiles": [
+                    {
+                        "title": "strike",
+                        "abilities": [
+    
+                        ],
+                        "range": "Melee",
+                        "attacks": "8",
+                        "s": "2+",
+                        "strength": "16",
+                        "ap": "-4",
+                        "damage": "D6 + 2"
+                    },
+                    {
+                        "title": "sweep",
+                        "abilities": [
+    
+                        ],
+                        "range": "Melee",
+                        "attacks": "18",
+                        "s": "2+",
+                        "strength": "8",
+                        "ap": "-2",
+                        "damage": "2"
+                    }
+                ]
+            }
+        ],
+        "wargearoptions": [
+            
+        ],
+        "coreabilities": [
+            "Deadly Demise D6",
+            "Deep Strike"
+        ],
+        "factionabilities": [
+            "Blessings of Khorne"
+        ],
+        "abilities" : [
+            {
+                "title": "Reborn in Blood",
+                "description": "Each time you make a Blessings of Khorne roll, if this model is destroyed, you can use a triple 6 from that roll to use this ability. If you do, this model is no longer destroyed and is placed into Reserves with its full wounds remaining."
+            },
+            {
+                "title": "Wrathful Presence",
+                "description": "At the start of your Charge phase, select one Wrathful Presence ability (see left). Until the start of your next Charge phase, this model has that ability."
+            }
+        ],
+        "wargearabilities": [
+            
+        ],
+        "choiceability" : {
+            "title": "Wrathful Presence",
+            "choices": [
+                {
+                    "title": "Glorious Bloodletting (Aura)",
+                    "description": "While a friendly WORLD EATERS unit is within 6\" of this model, each time a Charge roll is made for that unit, add 1 to the roll."
+                },
+                {
+                    "title": "Infectious Rage (Aura)",
+                    "description": "While a friendly WORLD EATERS unit that is below its Starting Strength is within 6\" of this model, add 1 to the Attacks characteristic of melee weapons equipped by models in that unit. For the purposes of this ability, if a unit has a Starting Strength of 1, it is considered to be below its Starting Strength while it has lost one or more wounds."
+                },
+                {
+                    "title": "Righteous Slaughter (Aura)",
+                    "description": "While a friendly WORLD EATERS unit is within 6\" of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+                }
+            ]
+        },
+        "unitcomposition": {
+            "models": [
+                "1 Angron"
+            ],
+            "equipped": [
+                {
+                    "who": "This model",
+                    "what": "Samni'arius and Spinegrinder"
+                }
+            ],
+            "sizes": [
+                {
+                    "number": "1",
+                    "cost": "415"
+                }
+            ]
+        },
+        "damaged": {
+            "threshold": "1-6 wounds remaining",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+        },
+        "other": [
+            {
+                "title": "Supreme Commander",
+                "description": "If this model is in your army, it must be your Warlord."
+            }
+        ],
+        "leaderbodyguard": {
+            "leader": "false",
+            "bodyguard": "false",
+            "units": [
+    
+            ]
+        },
+        "keywords": [
+            "Monster",
+            "Fly",
+            "Character",
+            "Epic Hero",
+            "Chaos",
+            "Khorne",
+            "Daemon",
+            "Primarch",
+            "Angron"
+        ],
+        "factionkeywords": [
+            "World Eaters"
+        ]
+    },
+    "kharnthebetrayer": {
+        "title": "Kharn the Betrayer",
+        "basesize": "40mm",
+        "movement": "6\"",
+        "toughness": "4",
+        "save": "3+",
+        "invuln": "4+",
+        "wounds": "6",
+        "leadership": "6+",
+        "oc": "1",
+        "rangedweapons": [
+            {
+                "title": "Kharn's plasma pistol",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+                            "pistol"
+                        ],
+                        "range": "12\"",
+                        "attacks": "1",
+                        "s": "2+",
+                        "strength": "8",
+                        "ap": "-3",
+                        "damage": "2"
+                    }
+                ]
+            }
+        ],
+        "meleeweapons": [
+            {
+                "title": "Gorechild",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+    
+                        ],
+                        "range": "Melee",
+                        "attacks": "8",
+                        "s": "2+",
+                        "strength": "6",
+                        "ap": "-2",
+                        "damage": "3"
+                    }
+                ]
+            }
+        ],
+        "wargearoptions": [
+    
+        ],
+        "coreabilities": [
+            "Leader"
+        ],
+        "factionabilities": [
+            "Blessings of Khorne"
+        ],
+        "abilities" : [
+            {
+                "title": "Legendary Killer",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+            },
+            {
+                "title": "The Betrayer",
+                "description": "At the end of your Charge phase, if this model is leading a unit and that unit is not within Engagement Range of one or more enemy units, you must take a Leadership test for this model. If that test is failed, one Bodyguard model of your choice in that unit is destroyed."
+            },
+            {
+                "title": "Berzerker Frenzy",
+                "description": "If this model is destroyed by a melee attack, if it has not fought this phase, do not remove it from play. It can fight after the attacking model's unit has finished making its attacks, and is then removed from play."
+            }
+        ],
+        "wargearabilities": [
+            
+        ],
+        "choiceability" : {
+            "title": "",
+            "choices": [
+                
+            ]
+        },
+        "unitcomposition": {
+            "models": [
+                "1 Kharn the Betrayer"
+            ],
+            "equipped": [
+                {
+                    "who": "This model",
+                    "what": "Kharn's plasma pistol, Gorechild."
+                }
+            ],
+            "sizes": [
+                {
+                    "number": "1",
+                    "cost": "100"
+                }
+            ]
+        },
+        "damaged": {
+            "threshold": "",
+            "description": ""
+        },
+        "other": [
+            
+        ],
+        "leaderbodyguard": {
+            "leader": "true",
+            "bodyguard": "false",
+            "units": [
+                "Khorne Berzerkers"
+            ]
+        },
+        "keywords": [
+            "Infantry",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Kharn the Betrayer"
+        ],
+        "factionkeywords": [
+            "World Eaters"
+        ]
+    },
+    "lordinvocatus": {
+        "title": "Lord Invocatus",
+        "basesize": "90 x 52mm",
+        "movement": "12\"",
+        "toughness": "6",
+        "save": "2+",
+        "invuln": "4+",
+        "wounds": "8",
+        "leadership": "6+",
+        "oc": "2",
+        "rangedweapons": [
+            {
+                "title": "Bolt pistol",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+                            "Pistol"
+                        ],
+                        "range": "12\"",
+                        "attacks": "1",
+                        "s": "2+",
+                        "strength": "4",
+                        "ap": "0",
+                        "damage": "1"
+                    }
+                ]
+            }
+        ],
+        "meleeweapons": [
+            {
+                "title": "Coward's Bane",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+                            "Devastating Wounds"
+                        ],
+                        "range": "Melee",
+                        "attacks": "7",
+                        "s": "2+",
+                        "strength": "6",
+                        "ap": "-2",
+                        "damage": "2"
+                    }
+                ]
+            },
+            {
+                "title": "Juggernaut's bladed horn",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+                            "Extra Attacks",
+                            "Lance"
+                        ],
+                        "range": "Melee",
+                        "attacks": "4",
+                        "s": "3+",
+                        "strength": "6",
+                        "ap": "-1",
+                        "damage": "2"
+                    }
+                ]
+            }
+        ],
+        "wargearoptions": [
+    
+        ],
+        "coreabilities": [
+            "Leader",
+            "Scouts 6\""
+        ],
+        "factionabilities": [
+            "Blessings of Khorne"
+        ],
+        "abilities" : [
+            {
+                "title": "Counter-attacks",
+                "description": "While this model is leading a unit, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+            },
+            {
+                "title": "Road of Eight Bloody Steps",
+                "description": "At the start of the battle, before any moves are made using the Scouts ability, you can select up to two friendly WORLD EATERS INFANTRY units within 6\" of this model. Until the end of the battle, all models in the selected units have the Scouts 6\" ability."
+            }
+        ],
+        "wargearabilities": [
+            
+        ],
+        "choiceability" : {
+            "title": "",
+            "choices": [
+    
+            ]
+        },
+        "unitcomposition": {
+            "models": [
+                "1 Lord Invocatus"
+            ],
+            "equipped": [
+                {
+                    "who": "This model",
+                    "what": "bolt pistol, Coward's Bane, Juggernaut's bladed horn."
+                }
+            ],
+            "sizes": [
+                {
+                    "number": "1",
+                    "cost": "140"
+                }
+            ]
+        },
+        "damaged": {
+            "threshold": "",
+            "description": ""
+        },
+        "other": [
+            
+        ],
+        "leaderbodyguard": {
+            "leader": "true",
+            "bodyguard": "false",
+            "units": [
+                "Eightbound",
+                "Exalted Eightbound",
+                "Khorne Berzerkers"
+            ]
+        },
+        "keywords": [
+            "Mounted",
+            "Character",
+            "Epic Hero",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Lord Invocatus"
+        ],
+        "factionkeywords": [
+            "World Eaters"
+        ]
+    },
+    "khorneberzerkers": {
+        "title": "Khorne Berzerkers",
+        "basesize": "32mm",
+        "movement": "6\"",
+        "toughness": "4",
+        "save": "3+",
+        "invuln": "",
+        "wounds": "2",
+        "leadership": "6+",
+        "oc": "2",
+        "rangedweapons": [
+            {
+                "title": "Bolt pistol",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+                            "pistol"
+                        ],
+                        "range": "12\"",
+                        "attacks": "1",
+                        "s": "3+",
+                        "strength": "4",
+                        "ap": "0",
+                        "damage": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Plasma pistol",
+                "profiles": [
+                    {
+                        "title": "standard",
+                        "abilities": [
+                            "pistol"
+                        ],
+                        "range": "12\"",
+                        "attacks": "1",
+                        "s": "3+",
+                        "strength": "7",
+                        "ap": "-2",
+                        "damage": "1"
+                    },
+                    {
+                        "title": "supercharge",
+                        "abilities": [
+                            "pistol"
+                        ],
+                        "range": "12\"",
+                        "attacks": "1",
+                        "s": "3+",
+                        "strength": "8",
+                        "ap": "-3",
+                        "damage": "2"
+                    }
+                ]
+            }
+        ],
+        "meleeweapons": [
+            {
+                "title": "Berzerker chainblade",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+    
+                        ],
+                        "range": "Melee",
+                        "attacks": "4",
+                        "s": "3+",
+                        "strength": "5",
+                        "ap": "-1",
+                        "damage": "1"
+                    }
+                ]
+            },
+            {
+                "title": "Khornate eviscerator",
+                "profiles": [
+                    {
+                        "title": "",
+                        "abilities": [
+    
+                        ],
+                        "range": "Melee",
+                        "attacks": "3",
+                        "s": "3+",
+                        "strength": "8",
+                        "ap": "-2",
+                        "damage": "2"
+                    }
+                ]
+            }
+        ],
+        "wargearoptions": [
+            "The Khorne Berzerker Champion's bolt pistol can be replaced with 1 plasma pistol.",
+            "For every 5 models in this unit, 1 Khorne Berzerker's bolt pistol can be replaced with 1 plasma pistol.",
+            "For every 5 models in this unit, 1 Khorne Berzerker's Berzerker chainblade can be replaced with 1 Khornate eviscerator.",
+            "1 model can be equipped with 1 icon of Khorne."
+        ],
+        "coreabilities": [
+            
+        ],
+        "factionabilities": [
+            "Blessings of Khorne"
+        ],
+        "abilities" : [
+            {
+                "title": "Blood Surge",
+                "description": "Each time an enemy unit is selected to shoot, after that unit has finished making its attacks, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6: this unit can be moved a number of inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit (excluding AIRCRAFT). When doing so, those models can be moved within Engagement Range of that enemy unit. A unit cannot make a Blood Surge move while it is Battle-shocked."
+            }
+        ],
+        "wargearabilities": [
+            {
+                "title": "Icon of Khorne",
+                "description": "Each time you make a Blessings of Khorne roll, if the bearer's unit is within range of an objective marker you control, you can re-roll one of the dice."
+            }
+        ],
+        "choiceability" : {
+            "title": "",
+            "choices": [
+                
+            ]
+        },
+        "unitcomposition": {
+            "models": [
+                "1 Khorne Berzerker Champion",
+                "4-9 Khorne Berzerkers"
+            ],
+            "equipped": [
+                {
+                    "who": "Every model",
+                    "what": "bolt pistol, Berzerker chainblade"
+                }
+            ],
+            "sizes": [
+                {
+                    "number": "5",
+                    "cost": "90"
+                },
+                {
+                    "number": "10",
+                    "cost": "180"
+                }
+            ]
+        },
+        "damaged": {
+            "threshold": "",
+            "description": ""
+        },
+        "other": [
+
+        ],
+        "leaderbodyguard": {
+            "leader": "false",
+            "bodyguard": "true",
+            "units": [
+                "Kharn The Betrayer",
+                "Lord Invocatus",
+                "World Eaters Lord On Juggernaut",
+                "World Eaters Master Of Executions"
+            ]
+        },
+        "keywords": [
+            "Infantry",
+            "Battleline",
+            "Grenades",
+            "Chaos",
+            "Khorne",
+            "Berzerkers"
+        ],
+        "factionkeywords": [
+            "World Eaters"
+        ]
+    }
+}
