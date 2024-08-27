@@ -704,5 +704,411 @@
     "factionkeywords": [
         "World Eaters"
     ]
+    },
+    "worldeatersdaemonprincewithwings": {
+            "title": "World Eaters Daemon Prince With Wings",
+            "basesize": "60mm",
+            "movement": "12\"",
+            "toughness": "9",
+            "save": "2+",
+            "invuln": "4+",
+            "wounds": "10",
+            "leadership": "6+",
+            "oc": "3",
+            "rangedweapons": [
+                {
+                    "title": "Infernal cannon",
+                    "profiles": [
+                        {
+                            "title": "",
+                            "abilities": [
+        
+                            ],
+                            "range": "24\"",
+                            "attacks": "3",
+                            "s": "2+",
+                            "strength": "5",
+                            "ap": "-1",
+                            "damage": "2"
+                        }
+                    ]
+                }
+            ],
+            "meleeweapons": [
+                {
+                    "title": "Hellforged weapons",
+                    "profiles": [
+                        {
+                            "title": "strike",
+                            "abilities": [
+        
+                            ],
+                            "range": "Melee",
+                            "attacks": "6",
+                            "s": "2+",
+                            "strength": "10",
+                            "ap": "-2",
+                            "damage": "3"
+                        },
+                        {
+                            "title": "sweep",
+                            "abilities": [
+        
+                            ],
+                            "range": "Melee",
+                            "attacks": "14",
+                            "s": "2+",
+                            "strength": "8",
+                            "ap": "0",
+                            "damage": "1"
+                        }
+                    ]
+                }
+            ],
+            "wargearoptions": [
+        
+            ],
+            "coreabilities": [
+                "Deadly Demise D3",
+                "Deep Strike"
+            ],
+            "factionabilities": [
+                "Blessings of Khorne"
+            ],
+            "abilities" : [
+                {
+                    "title": "Bloodied Terror",
+                    "description": "At the start of the Fight phase, each enemy unit within Engagement Range of this model must take a Battle-shock test."
+                },
+                {
+                    "title": "Oath to Khorne",
+                    "description": "At the start of the battle, select one unit from your opponent’s army to be this model’s sworn foe. Each time this model makes an attack that targets that sworn foe, you can re-roll the Hit roll and you can re-roll the Wound roll. If, at the end of the battle, that sworn foe has not been destroyed, this model is destroyed."
+                }
+            ],
+            "wargearabilities": [
+                {
+                    
+                }
+            ],
+            "choiceability" : {
+                "title": "",
+                "choices": [
+                    
+                ]
+            },
+            "unitcomposition": {
+                "models": [
+                    "1 World Eaters Daemon Prince With Wings"
+                ],
+                "equipped": [
+                    {
+                        "who": "This model",
+                        "what": "infernal cannon, hellforged weapons"
+                    }
+                ],
+                "sizes": [
+                    {
+                        "number": "1",
+                        "cost": "195"
+                    }
+                ]
+            },
+            "damaged": {
+                "threshold": "",
+                "description": ""
+            },
+            "other": [
+                
+            ],
+            "leaderbodyguard": {
+                "leader": "false",
+                "bodyguard": "false",
+                "units": [
+        
+                ]
+            },
+            "keywords": [
+                "Monster",
+                "Character",
+                "Fly",
+                "Chaos",
+                "Khorne",
+                "Daemon",
+                "Daemon Prince"
+            ],
+            "factionkeywords": [
+                "World Eaters"
+            ]
+    },
+    "worldeaterslordonjuggernaut": {
+        "title": "World Eaters Lord on Juggernaut",
+    "basesize": "90 x 52mm",
+    "movement": "10\"",
+    "toughness": "6",
+    "save": "2+",
+    "invuln": "4+",
+    "wounds": "7",
+    "leadership": "6+",
+    "oc": "2",
+    "rangedweapons": [
+        {
+            "title": "Plasma pistol",
+            "profiles": [
+                {
+                    "title": "standard",
+                    "abilities": [
+                        "pistol"
+                    ],
+                    "range": "12\"",
+                    "attacks": "1",
+                    "s": "2+",
+                    "strength": "7",
+                    "ap": "-2",
+                    "damage": "1"
+                },
+                {
+                    "title": "supercharge",
+                    "abilities": [
+                        "hazardous",
+                        "pistol"
+                    ],
+                    "range": "12\"",
+                    "attacks": "1",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-3",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Exalted chainblade",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "7",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Juggernaut's bladed horn",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "extra attacks",
+                        "lance"
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "3+",
+                    "strength": "6",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Leader"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Aggressive Advance",
+            "description": "While this model is leading a unit, you can re-roll any or all of the following rolls made for that unit: Advance rolls; Charge rolls; Blood Surge rolls (see KHORNE BERZERKERS)."
+        },
+        {
+            "title": "Bloody Stampede",
+            "description": "Each time this model's unit ends a Charge move, select one enemy unit within Engagement Range of this model and roll one D6: on a 2-3, that enemy unit suffers 1 mortal wound; on a 4-5, that enemy unit suffers D3 mortal wounds; on a 6, that enemy unit suffers D3+3 mortal wounds."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 World Eaters Lord on Juggernaut"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "plasma pistol, exalted chainblade, Juggernaut's bladed horn"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "100"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Eightbound",
+            "Exalted Eightbound",
+            "Khorne Berzerkers"
+        ]
+    },
+    "keywords": [
+        "Mounted",
+        "Character",
+        "Grenades",
+        "Chaos",
+        "Khorne",
+        "Lord on Juggernaut"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
+    "worldeatersmasterofexecutions": {
+        "title": "World Eaters Master of Executions",
+    "basesize": "40mm",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "3+",
+    "invuln": "",
+    "wounds": "4",
+    "leadership": "6+",
+    "oc": "1",
+    "rangedweapons": [
+        {
+            "title": "Bolt pistol",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "pistol"
+                    ],
+                    "range": "12\"",
+                    "attacks": "1",
+                    "s": "3+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Axe of dismemberment",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "Devastating Wounds",
+                        "Precision"
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "2+",
+                    "strength": "7",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Leader"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Trophy Taker",
+            "description": "While this model is leading a unit, models in that unit have the Fights First ability."
+        },
+        {
+            "title": "Murderous Swing",
+            "description": "Each time this model makes a melee attack that targets a CHARACTER unit, you can re-roll the Hit roll and you can re-roll the Wound roll."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 World Eaters Master of Executions"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "bolt pistol, axe of dismemberment"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "100"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Khorne Berzerkers"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Khorne",
+        "Master of Executions"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
     }
 }
