@@ -397,6 +397,188 @@
             "World Eaters"
         ]
     },
+    "jakhals": {
+        "title": "Jakhals",
+    "basesize": "28mm",
+    "movement": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "invuln": "",
+    "wounds": "1",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        {
+            "title": "Autopistol",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "pistol"
+                    ],
+                    "range": "12\"",
+                    "attacks": "1",
+                    "s": "4+",
+                    "strength": "3",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Jakhal chainblades",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "sustained hits 1"
+                    ],
+                    "range": "Melee",
+                    "attacks": "2",
+                    "s": "4+",
+                    "strength": "3",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Dishonoured chainblades",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "sustained hits 1"
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Mauler chainblade",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "sustained hits 1"
+                    ],
+                    "range": "Melee",
+                    "attacks": "2",
+                    "s": "5+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Skullsmasher",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "For every 10 models in this unit, 1 Jakhal’s Jakhal chainblades can be replaced with 1 mauler chainblade.",
+        "Any number of Dishonoured models can each have their Dishonoured chainblades replaced with 1 skullsmasher.",
+        "For every 10 models in this unit, 1 Jakhal can be equipped with 1 icon of Khorne"
+    ],
+    "coreabilities": [
+        "Feel No Pain 6+"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Objective Ravaged",
+            "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+        }
+    ],
+    "wargearabilities": [
+        {
+            "title": "Icon of Khorne",
+            "description": "Each time you make a Blessings of Khorne roll, if the bearer's unit is within range of an objective marker you control, you can re-roll one of the dice."
+        }
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Jakhal Pack Leader",
+            "1 Dishonoured",
+            "8 Jakhals",
+            "1 Jakhal Pack Leader",
+            "2 Dishonoured",
+            "17 Jakhals"
+        ],
+        "equipped": [
+            {
+                "who": "The Jakhal Pack Leader and every Jakhal",
+                "what": "autopistol, Jakhal chainblades"
+            },
+            {
+                "who": "Every Dishonoured",
+                "what": "Dishonoured chainblades"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "10",
+                "cost": "65"
+            },
+            {
+                "number": "20",
+                "cost": "130"
+            }
+        ]
+    },
+    "damaged": {
+        
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Battleline",
+        "Chaos",
+        "Khorne",
+        "Jakhals"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
     "khorneberzerkers": {
         "title": "Khorne Berzerkers",
         "basesize": "32mm",
