@@ -1293,5 +1293,657 @@
         "factionkeywords": [
             "World Eaters"
         ]
+    },
+    "worldeatersrhino": {
+        "title": "World Eaters Rhino",
+    "basesize": "Use model",
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "3+",
+    "invuln": "",
+    "wounds": "10",
+    "leadership": "6+",
+    "oc": "2",
+    "rangedweapons": [
+        {
+            "title": "Combi-bolter",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "rapid fire 2"
+                    ],
+                    "range": "24\"",
+                    "attacks": "2",
+                    "s": "3+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Combi-weapon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "anti-infantry 4+",
+                        "devastating wounds",
+                        "rapid fire 1"
+                    ],
+                    "range": "24\"",
+                    "attacks": "1",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Havoc launcher",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "48\"",
+                    "attacks": "D6",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Armoured tracks",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "4+",
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "This model can be equipped with one of the following: 1 additional combi-bolter, 1 combi-weapon.",
+        "This model can be equipped with 1 havoc launcher."
+    ],
+    "coreabilities": [
+        "Deadly Demise D3",
+        "Firing Deck 2"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Self Repair",
+            "description": "At the start of your Command phase, this model regains 1 lost wound."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 World Eaters Rhino"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "combi-bolter, armoured tracks."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "75"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        {
+            "title": "Transport",
+            "description": "This model has a transport capacity of 12 WORLD EATERS INFANTRY models. It cannot transport EIGHTBOUND, EXALTED EIGHTBOUND or TERMINATOR models."
+        }
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Vehicle",
+        "Transport",
+        "Dedicated Transport",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Rhino"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
+    "eightbound": {
+        "title": "Eightbound",
+    "basesize": "40mm",
+    "movement": "9\"",
+    "toughness": "6",
+    "save": "3+",
+    "invuln": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "oc": "1",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Eightbound eviscerators",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Heavy chainglaive",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "8",
+                    "s": "3+",
+                    "strength": "7",
+                    "ap": "-3",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Lacerators",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "3+",
+                    "strength": "9",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "The Eightbound Champion's lacerators can be replaced with 1 heavy chainglaive."
+    ],
+    "coreabilities": [
+        "Scouts 6\""
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Beacons of Rage (Aura)",
+            "description": "While a friendly WORLD EATERS unit is within 6\" of this unit, each time a model in that unit makes a melee attack, re-roll a Wound roll of 1. If that attack targets a unit that is Below Half-strength, you can re-roll the Wound roll instead."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Eightbound Champion",
+            "2-5 Eightbound"
+        ],
+        "equipped": [
+            {
+                "who": "The Eightbound Champion model",
+                "what": "lacerators."
+            },
+            {
+                "who": "Every Eightbound model",
+                "what": "Eightbound eviscerators."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "3",
+                "cost": "140"
+            },
+            {
+                "number": "6",
+                "cost": "280"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "true",
+        "units": [
+            "Lord Invocatus",
+            "World Eaters Lord On Juggernaut"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Eightbound"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
+    "exaltedeightbound": {
+        "title": "Exalted Eightbound",
+    "basesize": "40mm",
+    "movement": "9\"",
+    "toughness": "6",
+    "save": "3+",
+    "invuln": "5+",
+    "wounds": "3",
+    "leadership": "6+",
+    "oc": "1",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Eightbound chainfist",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "14",
+                    "ap": "-3",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Eightbound eviscerator",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Heavy chainglaive",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "8",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-3",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Paired Eightbound chainfists",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "twin-linked"
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "3+",
+                    "strength": "14",
+                    "ap": "-3",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "The Exalted Eightbound Champion's Eightbound eviscerator and Eightbound chainfist can be replaced with one of the following: 1 paired Eightbound chainfists, 1 heavy chainglaive."
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Feel No Pain 6+"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Overwhelming Wrath (Aura)",
+            "description": "Each time an enemy unit within 6\" of this unit is selected to Fall Back, that unit must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Exalted Eightbound Champion",
+            "2-5 Exalted Eightbound"
+        ],
+        "equipped": [
+            {
+                "who": "Every model",
+                "what": "Eightbound eviscerator, Eightbound chainfist."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "3",
+                "cost": "155"
+            },
+            {
+                "number": "6",
+                "cost": "310"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "true",
+        "units": [
+            "Lord Invocatus",
+            "World Eaters Lord On Juggernaut"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Exalted Eightbound"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
+    "khornelordofskulls": {
+        "title": "Khorne Lord Of Skulls",
+    "basesize": "Use model",
+    "movement": "8\"",
+    "toughness": "13",
+    "save": "3+",
+    "invuln": "5+",
+    "wounds": "24",
+    "leadership": "6+",
+    "oc": "8",
+    "rangedweapons": [
+        {
+            "title": "Daemongore cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "18\"",
+                    "attacks": "D6",
+                    "s": "3+",
+                    "strength": "14",
+                    "ap": "-4",
+                    "damage": "D6+2"
+                }
+            ]
+        },
+        {
+            "title": "Gorestorm cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "24\"",
+                    "attacks": "D6+3",
+                    "s": "3+",
+                    "strength": "10",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        },
+        {
+            "title": "Hades gatling cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "sustained hits 1"
+                    ],
+                    "range": "48\"",
+                    "attacks": "12",
+                    "s": "3+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Ichor cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "48\"",
+                    "attacks": "2D6",
+                    "s": "3+",
+                    "strength": "7",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Skullhurler",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        
+                    ],
+                    "range": "60\"",
+                    "attacks": "2D6",
+                    "s": "3+",
+                    "strength": "14",
+                    "ap": "-3",
+                    "damage": "3"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Great cleaver of Khorne",
+            "profiles": [
+                {
+                    "title": "strike",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "3+",
+                    "strength": "16",
+                    "ap": "-4",
+                    "damage": "8"
+                },
+                {
+                    "title": "sweep",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "15",
+                    "s": "3+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "This model's gorestorm cannon can be replaced with one of the following: 1 daemongore cannon, 1 ichor cannon.",
+        "This model's Hades gatling cannon can be replaced with 1 skullhurler."
+    ],
+    "coreabilities": [
+        "Deadly Demise D6+2"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Blessed Slaughter",
+            "description": "Each time you make a Blessings of Khorne roll, for each enemy unit destroyed by this model in the previous battle round, you can add 1 to or subtract 1 from one of the dice rolled (each dice can only be modified in this way once, and a dice cannot be modified below 1 or above 6)."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Khorne Lord of Skulls"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "gorestorm cannon, Hades gatling cannon, great cleaver of Khorne."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "450"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "1-8 wounds remaining",
+        "description": "While this model has 1-8 wounds remaining, subtract 4 from this model's Objective Control characteristic and each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "other": [
+
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Vehicle",
+        "Titanic",
+        "Towering",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Lord of Skulls"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
     }
 }
