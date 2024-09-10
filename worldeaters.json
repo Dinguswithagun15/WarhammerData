@@ -1945,5 +1945,362 @@
     "factionkeywords": [
         "World Eaters"
     ]
+    },
+    "worldeaterschaosspawn": {
+        "title": "World Eaters Chaos Spawn",
+    "basesize": "50mm",
+    "movement": "8\"",
+    "toughness": "5",
+    "save": "4+",
+    "invuln": "",
+    "wounds": "4",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Hideous mutations",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "D6+2",
+                    "s": "4+",
+                    "strength": "6",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Feel No Pain 5+"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Regenerating Monstrosities",
+            "description": "At the start of each player's Command phase, one model in this unit regains up to D3 lost wounds."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "2 Chaos Spawn"
+        ],
+        "equipped": [
+            {
+                "who": "Every model",
+                "what": "hideous mutations"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "2",
+                "cost": "65"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Beast",
+        "Chaos",
+        "Khorne",
+        "Spawn"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
+    },
+    "worldeatersdefiler": {
+    "title": "World Eaters Defiler",
+    "basesize": "Use model",
+    "movement": "8\"",
+    "toughness": "10",
+    "save": "3+",
+    "invuln": "5+",
+    "wounds": "14",
+    "leadership": "6+",
+    "oc": "5",
+    "rangedweapons": [
+        {
+            "title": "Combi-bolter",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "rapid fire 2"
+                    ],
+                    "range": "24\"",
+                    "attacks": "2",
+                    "s": "3+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Combi-weapon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "anti-infantry 4+",
+                        "devastating wounds",
+                        "rapid fire 1"
+                    ],
+                    "range": "24\"",
+                    "attacks": "1",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Defiler cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "48\"",
+                    "attacks": "D6+3",
+                    "s": "3+",
+                    "strength": "10",
+                    "ap": "-1",
+                    "damage": "3"
+                }
+            ]
+        },
+        {
+            "title": "Havoc launcher",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "blast"
+                    ],
+                    "range": "48\"",
+                    "attacks": "D6",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Reaper autocannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds",
+                        "sustained hits 1"
+                    ],
+                    "range": "36\"",
+                    "attacks": "4",
+                    "s": "3+",
+                    "strength": "7",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Twin heavy bolter",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "sustained hits 1",
+                        "twin-linked"
+                    ],
+                    "range": "36\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Twin heavy flamer",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "ignores cover",
+                        "torrent",
+                        "twin-linked"
+                    ],
+                    "range": "12\"",
+                    "attacks": "D6",
+                    "s": "N/A",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Twin lascannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "twin-linked"
+                    ],
+                    "range": "48\"",
+                    "attacks": "1",
+                    "s": "3+",
+                    "strength": "12",
+                    "ap": "-3",
+                    "damage": "D6+1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Defiler claws",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "3+",
+                    "strength": "16",
+                    "ap": "-3",
+                    "damage": "D6+1"
+                }
+            ]
+        },
+        {
+            "title": "Defiler scourge",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "12",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "This model's twin heavy flamer can be replaced with one of the following: 1 havoc launcher, 1 Defiler scourge.",
+        "This model's reaper autocannon can be replaced with one of the following: 1 twin heavy bolter, 1 twin lascannon.",
+        "This model can be equipped with one of the following: 1 combi-bolter, 1 combi-weapon"
+    ],
+    "coreabilities": [
+        "Deadly Demise D3"
+    ],
+    "factionabilities": [
+        "Blessings of Khorne"
+    ],
+    "abilities" : [
+        {
+            "title": "Scuttling Walker",
+            "description": "Each time this model makes a Normal, Advance or Fall Back move, it can be moved over friendly MONSTER and VEHICLE models as if they were not there. This model can move over terrain features that are 4\" or less in height as if they were not there."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 World Eaters Defiler"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Defiler cannon, reaper autocannon, twin heavy flamer, Defiler claws."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "190"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "1-5 wounds remaining",
+        "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "other": [
+
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Vehicle",
+        "Walker",
+        "Smoke",
+        "Chaos",
+        "Khorne",
+        "Daemon",
+        "Defiler"
+    ],
+    "factionkeywords": [
+        "World Eaters"
+    ]
     }
 }
