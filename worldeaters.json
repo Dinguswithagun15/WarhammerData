@@ -2708,10 +2708,7 @@
         }
     ],
     "wargearabilities": [
-        {
-            "title": "example",
-            "description": "example"
-        }
+        
     ],
     "choiceability" : {
         "title": "",
