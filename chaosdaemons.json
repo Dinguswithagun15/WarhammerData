@@ -164,5 +164,449 @@
     "factionkeywords": [
         "Legiones Daemonica"
     ]
+},
+"bloodmaster": {
+    "title": "Bloodmaster",
+    "basesize": "40mm",
+    "movement": "6\"",
+    "toughness": "4",
+    "save": "5+",
+    "invuln": "4+",
+    "wounds": "4",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Blade of blood",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Bloodmaster",
+            "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Wound roll."
+        },
+        {
+            "title": "A Gory Path",
+            "description": "Each time this model's unit Consolidates, it can move up to 6\" instead of up to 3\"."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Bloodmaster"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "blade of blood"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "65"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Bloodletters"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Bloodmaster"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"bloodthirster": {
+    "title": "Bloodthirster",
+    "basesize": "120 x 92mm",
+    "movement": "12\"",
+    "toughness": "11",
+    "save": "4+",
+    "invuln": "4+",
+    "wounds": "18",
+    "leadership": "6+",
+    "oc": "5",
+    "rangedweapons": [
+        {
+            "title": "Bloodflail",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds"
+                    ],
+                    "range": "12\"",
+                    "attacks": "1",
+                    "s": "2+",
+                    "strength": "16",
+                    "ap": "-3",
+                    "damage": "D6+1"
+                }
+            ]
+        },
+        {
+            "title": "Hellfire breath",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "ignores cover",
+                        "torrent"
+                    ],
+                    "range": "12\"",
+                    "attacks": "D6",
+                    "s": "N/A",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Lash of Khorne",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        
+                    ],
+                    "range": "12\"",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "0",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Axe of Khorne",
+            "profiles": [
+                {
+                    "title": "strike",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "8",
+                    "s": "2+",
+                    "strength": "14",
+                    "ap": "-4",
+                    "damage": "D6"
+                },
+                {
+                    "title": "sweep",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "16",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Great axe of Khorne",
+            "profiles": [
+                {
+                    "title": "strike",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "7",
+                    "s": "2+",
+                    "strength": "16",
+                    "ap": "-4",
+                    "damage": "D6+2"
+                },
+                {
+                    "title": "sweep",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "14",
+                    "s": "2+",
+                    "strength": "10",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "This model's great axe of Khorne can be replaced with 1 axe of Khorne and one of the following: 1 bloodflail, 1 lash of Khorne."
+    ],
+    "coreabilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Daemon Lord of Khorne (Aura)",
+            "description": "While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, each time a model in that unit makes a melee attack, add 1 to the Hit roll."
+        },
+        {
+            "title": "Relentless Carnage",
+            "description": "At the end of the Fight phase, you can select one enemy unit within Engagement Range of this model and roll eight D6: for each 4+, that enemy unit suffers 1 mortal wound."
+        },
+        {
+            "title": "Greater Daemon of Khorne (Aura)",
+            "description": "While a friendly KHORNE LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army's Shadow of Chaos."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Bloodthirster"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Hellfire breath, great axe of Khorne."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "305"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "1-6 wounds remaining",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Monster",
+        "Character",
+        "Fly",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Bloodthirster"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"changecaster": {
+    "title": "Changecaster",
+    "basesize": "32mm",
+    "movement": "6\"",
+    "toughness": "3",
+    "save": "6+",
+    "invuln": "4+",
+    "wounds": "3",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        {
+            "title": "Arcane Fireball",
+            "profiles": [
+                {
+                    "title": "witchfire",
+                    "abilities": [
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "D3"
+                },
+                {
+                    "title": "focused witchfire",
+                    "abilities": [
+                        "devastating wounds",
+                        "hazardous",
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "D3"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Herald combat weapon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "psychic"
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Changecaster",
+            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+        },
+        {
+            "title": "Storm of Mutating Sorcery (Psychic)",
+            "description": "In your Shooting phase, after this model has shot, select one enemy Infantry unit hit by one or more of those attacks. That unit must take a Battle-shock test."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            {
+                "title": "example",
+                "description": "example"
+            }
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Changecaster"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Arcane Fireball, Herald combat weapon."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "60"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Blue Horrors",
+            "Pink Horrors"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Changecaster"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
 }
 }
