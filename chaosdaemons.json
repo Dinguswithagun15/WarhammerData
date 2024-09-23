@@ -608,5 +608,672 @@
     "factionkeywords": [
         "Legiones Daemonica"
     ]
+},
+"contortedepitome": {
+    "title": "Contorted Epitome",
+    "basesize": "75 x 42mm",
+    "movement": "9\"",
+    "toughness": "6",
+    "save": "5+",
+    "invuln": "4+",
+    "wounds": "8",
+    "leadership": "7+",
+    "oc": "2",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Coiled tentacles",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "D6",
+                    "s": "4+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Ravaging claws",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds"
+                    ],
+                    "range": "Melee",
+                    "attacks": "8",
+                    "s": "2+",
+                    "strength": "4",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Swallow Energy (Psychic)",
+            "description": "While this model is leading a unit, models in that unit have the Feel No Pain 4+ ability against mortal wounds and Psychic Attacks."
+        },
+        {
+            "title": "Horrible Fascination (Psychic)",
+            "description": "At the start of your opponent's Shooting phase, one PSYKER model from your army with this ability can use it. If it does, select one enemy unit within 12\" of and visible to that PSYKER model and roll one D6: on a 1, that PSYKER model suffers D3 mortal wounds; on a 2-5, until the end of the phase, each time a model in that enemy unit makes an attack, subtract 1 from the Hit roll; on a 6, that enemy unit is not eligible to shoot this phase."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Contorted Epitome"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "coiled tentacles, ravaging claws"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "80"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Daemonettes"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Slaanesh",
+        "Contorted Epitome"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"daemonprinceofchaos": {
+    "title": "Daemon Prince Of Chaos",
+    "basesize": "60mm",
+    "movement": "8\"",
+    "toughness": "10",
+    "save": "2+",
+    "invuln": "4+",
+    "wounds": "10",
+    "leadership": "6+",
+    "oc": "3",
+    "rangedweapons": [
+        {
+            "title": "Infernal cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "24\"",
+                    "attacks": "3",
+                    "s": "2+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Hellforged weapons",
+            "profiles": [
+                {
+                    "title": "strike",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "3"
+                },
+                {
+                    "title": "sweep",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "14",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deadly Demise D3"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Prince of Darkness (Aura)",
+            "description": "While a friendly LEGIONES DAEMONICA unit is within 6\" of this model, models in that unit have the Stealth ability."
+        },
+        {
+            "title": "Unholy Vigour",
+            "description": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 3+ invulnerable save."
+        }
+    ],
+    "wargearabilities": [
+        {
+            
+        }
+    ],
+    "choiceability" : {
+        "title": "Daemonic Allegiance",
+        "choices": [
+            {
+                "title": "Daemon Prince of Khorne (Aura)",
+                "description": "If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model's hellforged weapons."
+            },
+            {
+                "title": "Daemon Prince of Tzeentch (Aura)",
+                "description": "If this model has the TZEENTCH keyword, add 3 to the Attacks characteristic of this model's infernal cannon."
+            },
+            {
+                "title": "Daemon Prince of Nurgle (Aura)",
+                "description": "If this model has the NURGLE keyword, add 1 to this model's Toughness characteristic."
+            },
+            {
+                "title": "Daemon Prince of Slaanesh (Aura)",
+                "description": "If this model has the SLAANESH keyword, add 2\" to this model's Move characteristic."
+            }
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Daemon Prince of Chaos"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "infernal cannon, hellforged weapons"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "190"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        {
+            "title": "Daemonic Allegiance",
+            "description": "When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE, TZEENTCH, NURGLE, SLAANESH. The keyword you select will also affect some of this model's characteristics, as stated above."
+        }
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Monster",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Daemon Prince of Chaos"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"daemonprinceofchaoswithwings": {
+    "title": "Daemon Prince Of Chaos With Wings",
+    "basesize": "60mm",
+    "movement": "12\"",
+    "toughness": "9",
+    "save": "2+",
+    "invuln": "4+",
+    "wounds": "10",
+    "leadership": "6+",
+    "oc": "3",
+    "rangedweapons": [
+        {
+            "title": "Infernal cannon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "24\"",
+                    "attacks": "3",
+                    "s": "2+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Hellforged weapons",
+            "profiles": [
+                {
+                    "title": "strike",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "3"
+                },
+                {
+                    "title": "sweep",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "14",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deadly Demise D3",
+        "Deep Strike"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Malefic Destruction (Aura)",
+            "description": "Once per battle, at the start of the Fight phase, this model can use this ability. If it does, until the end of the phase, add 3 to the Attacks characteristic of this model's hellforged weapons."
+        },
+        {
+            "title": "Unholy Vigour",
+            "description": "Each time this model is selected to fight, select one of the following abilities. Until the end of the phase, this model's hellforged weapons have that ability: [LETHAL HITS], [PRECISION], [SUSTAINED HITS 1]."
+        }
+    ],
+    "wargearabilities": [
+        {
+            
+        }
+    ],
+    "choiceability" : {
+        "title": "Daemonic Allegiance",
+        "choices": [
+            {
+                "title": "Daemon Prince of Khorne (Aura)",
+                "description": "If this model has the KHORNE keyword, add 2 to the Strength characteristic of this model's hellforged weapons."
+            },
+            {
+                "title": "Daemon Prince of Tzeentch (Aura)",
+                "description": "If this model has the TZEENTCH keyword, add 3 to the Attacks characteristic of this model's infernal cannon."
+            },
+            {
+                "title": "Daemon Prince of Nurgle (Aura)",
+                "description": "If this model has the NURGLE keyword, add 1 to this model's Toughness characteristic."
+            },
+            {
+                "title": "Daemon Prince of Slaanesh (Aura)",
+                "description": "If this model has the SLAANESH keyword, add 2\" to this model's Move characteristic."
+            }
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Daemon Prince of Chaos With Wings"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "infernal cannon, hellforged weapons"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "180"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        {
+            "title": "Daemonic Allegiance",
+            "description": "When you select this model to include in your army, you must select one of the following keywords for it to gain: KHORNE, TZEENTCH, NURGLE, SLAANESH. The keyword you select will also affect some of this model's characteristics, as stated above."
+        }
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Monster",
+        "Character",
+        "Fly",
+        "Chaos",
+        "Daemon",
+        "Daemon Prince of Chaos with Wings"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"epidemius": {
+    "title": "Epidemius",
+    "basesize": "60mm",
+    "movement": "5\"",
+    "toughness": "5",
+    "save": "6+",
+    "invuln": "5+",
+    "wounds": "8",
+    "leadership": "7+",
+    "oc": "2",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Balesword and Nurgling attendants",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "lethal hits"
+                    ],
+                    "range": "Melee",
+                    "attacks": "D6+3",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Blessed by the Plague God",
+            "description": "While this model is leading a unit, models in that unit have a 4+ invulnerable save."
+        },
+        {
+            "title": "Tally of Pestilence",
+            "description": "Keep a tally of how many enemy models are destroyed by NURGLE LEGIONES DAEMONICA models from your army during the battle. At the start of your Command phase, if this tally is 7 or more, you gain 1CP and the tally is reset to 0."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Epidemius"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "balesword and Nurgling attendants."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "80"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Plaguebearers"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Epidemius"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"exaltedflamer": {
+    "title": "Exalted Flamer",
+    "basesize": "75 x 42mm",
+    "movement": "9\"",
+    "toughness": "4",
+    "save": "7+",
+    "invuln": "4+",
+    "wounds": "6",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        {
+            "title": "Fire of Tzeentch",
+            "profiles": [
+                {
+                    "title": "blue fire",
+                    "abilities": [
+                        "ignores cover",
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "9",
+                    "ap": "-3",
+                    "damage": "3"
+                },
+                {
+                    "title": "pink fire",
+                    "abilities": [
+                        "ignores cover",
+                        "psychic",
+                        "torrent"
+                    ],
+                    "range": "12\"",
+                    "attacks": "2D6",
+                    "s": "N/A",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Flamer mouths",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "4+",
+                    "strength": "5",
+                    "ap": "0",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Blazing Warpfire (Psychic)",
+            "description": "While this model is leading a unit, ranged weapons equipped by models in that unit have the [ASSAULT] ability."
+        },
+        {
+            "title": "Flames of Change (Psychic)",
+            "description": "In your Shooting phase, after this model has shot, select one enemy unit (excluding MONSTERS and VEHICLES) hit by one or more of those attacks, and roll one D6. On a 4+, until the end of your opponent’s next turn, that enemy unit is aflame. While a unit is aflame, subtract 2\" from its Move characteristic and subtract 2 from Advance and Charge rolls made for it."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Exalted Flamer"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Fire of Tzeentch, Flamer mouths."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "65"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        {
+            "title": "Manifestation of Destruction",
+            "description": "This model cannot be your Warlord and cannot be given Enhancements."
+        }
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Flamers"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Fly",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Exalted Flamer"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
 }
 }
