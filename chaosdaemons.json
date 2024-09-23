@@ -871,6 +871,10 @@
         "Monster",
         "Character",
         "Chaos",
+        "Khorne",
+        "Tzeentch",
+        "Nurgle",
+        "Slaanesh",
         "Daemon",
         "Daemon Prince of Chaos"
     ],
@@ -1021,6 +1025,10 @@
         "Character",
         "Fly",
         "Chaos",
+        "Khorne",
+        "Tzeentch",
+        "Nurgle",
+        "Slaanesh",
         "Daemon",
         "Daemon Prince of Chaos with Wings"
     ],
