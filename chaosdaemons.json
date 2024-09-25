@@ -1279,5 +1279,158 @@
     "factionkeywords": [
         "Legiones Daemonica"
     ]
+},
+"fateskimmer": {
+    "title": "Fateskimmer",
+    "basesize": "120 x 92mm",
+    "movement": "12\"",
+    "toughness": "7",
+    "save": "6+",
+    "invuln": "4+",
+    "wounds": "9",
+    "leadership": "7+",
+    "oc": "3",
+    "rangedweapons": [
+        {
+            "title": "Arcane Fireball",
+            "profiles": [
+                {
+                    "title": "witchfire",
+                    "abilities": [
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "5",
+                    "ap": "-1",
+                    "damage": "D3"
+                },
+                {
+                    "title": "focused witchfire",
+                    "abilities": [
+                        "devastating wounds",
+                        "hazardous",
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "3",
+                    "s": "3+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "D3"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Herald combat weapon",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "psychic"
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "4+",
+                    "strength": "4",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        },
+        {
+            "title": "Screamer bites",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "4+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Fateskimmer",
+            "description": "While this model is leading a unit, melee weapons equipped by models in that unit have the [LETHAL HITS] ability."
+        },
+        {
+            "title": "Rider of the Immaterial Winds",
+            "description": "Once per battle, at the end of your opponent's turn, if this model's unit is not within Engagement Range of one or more enemy units, you can remove that unit from the battlefield and place it into Strategic Reserves."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Fateskimmer"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Arcane Fireball, Herald combat weapon, Screamer bites."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "95"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Screamers"
+        ]
+    },
+    "keywords": [
+        "Mounted",
+        "Character",
+        "Fly",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Fateskimmer"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
 }
 }
