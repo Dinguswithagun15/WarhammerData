@@ -1764,5 +1764,512 @@
     "factionkeywords": [
         "Legiones Daemonica"
     ]
+},
+"horticulousslimux": {
+    "title": "Horticulous Slimux",
+    "basesize": "105 x 70mm",
+    "movement": "6\"",
+    "toughness": "10",
+    "save": "3+",
+    "invuln": "4+",
+    "wounds": "10",
+    "leadership": "7+",
+    "oc": "2",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Acidic maw",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds",
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "2",
+                    "s": "4+",
+                    "strength": "7",
+                    "ap": "-4",
+                    "damage": "3"
+                }
+            ]
+        },
+        {
+            "title": "Lopping shears",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "lethal hits"
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "3+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Beast Handler",
+            "description": "While this model is leading a unit, you can re-roll Charge rolls made for that unit. In addition, once per battle, you can target that unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already used that Stratagem on a different unit this phase."
+        },
+        {
+            "title": "Seed the Garden of Nurgle",
+            "description": "At the end of your Movement phase, if this model is within one Area Terrain feature, until the end of the battle, that AREA TERRAIN feature is considered to be within your army's Shadow of Chaos."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Horticulous Slimux"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "acidic maw, lopping shears"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "120"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Beasts Of Nurgle"
+        ]
+    },
+    "keywords": [
+        "Mounted",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Daemon",
+        "Nurgle",
+        "Horticulous Slimux"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"infernalenrapturess": {
+    "title": "Infernal Enrapturess",
+    "basesize": "60 x 35mm",
+    "movement": "9\"",
+    "toughness": "3",
+    "save": "7+",
+    "invuln": "5+",
+    "wounds": "3",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        {
+            "title": "Heartstring lyre",
+            "profiles": [
+                {
+                    "title": "cacophonous melody",
+                    "abilities": [
+                        "assault"
+                    ],
+                    "range": "18\"",
+                    "attacks": "6",
+                    "s": "3+",
+                    "strength": "6",
+                    "ap": "0",
+                    "damage": "1"
+                },
+                {
+                    "title": "euphonic blast",
+                    "abilities": [
+                        "assault"
+                    ],
+                    "range": "24\"",
+                    "attacks": "1",
+                    "s": "3+",
+                    "strength": "12",
+                    "ap": "-3",
+                    "damage": "D6+1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Ravaging claws",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds"
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "2+",
+                    "strength": "4",
+                    "ap": "-1",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Harmonic Alignment",
+            "description": "While this model is leading a unit, in your Command phase, you can return D3 destroyed Bodyguard models to that unit."
+        },
+        {
+            "title": "Discordant Disruption (Aura)",
+            "description": "While an enemy PSYKER unit is within 12\" of this model, Psychic weapons equipped by models in that unit have the [HAZARDOUS] ability."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Infernal Enrapturess"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "heartstring lyre, ravaging claws"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "60"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Daemonettes"
+        ]
+    },
+    "keywords": [
+        "Infantry",
+        "Character",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Infernal Enrapturess"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"kairosfateweaver": {
+    "title": "Kairos Fateweaver",
+    "basesize": "100mm",
+    "movement": "12\"",
+    "toughness": "10",
+    "save": "6+",
+    "invuln": "4+",
+    "wounds": "20",
+    "leadership": "6+",
+    "oc": "5",
+    "rangedweapons": [
+        {
+            "title": "Infernal Gateway",
+            "profiles": [
+                {
+                    "title": "witchfire",
+                    "abilities": [
+                        "blast",
+                        "indirect fire",
+                        "psychic"
+                    ],
+                    "range": "24\"",
+                    "attacks": "D6+3",
+                    "s": "2+",
+                    "strength": "9",
+                    "ap": "-2",
+                    "damage": "D3"
+                },
+                {
+                    "title": "focused witchfire",
+                    "abilities": [
+                        "blast",
+                        "indirect fire",
+                        "hazardous",
+                        "psychic"
+                    ],
+                    "range": "24\"",
+                    "attacks": "D3+6",
+                    "s": "2+",
+                    "strength": "9",
+                    "ap": "-3",
+                    "damage": "D3"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Staff of Tomorrow",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "psychic"
+                    ],
+                    "range": "Melee",
+                    "attacks": "5",
+                    "s": "3+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "2D3"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "One Head Looks Forward (Aura)",
+            "description": "Each time you target a friendly TZEENTCH LEGIONES DAEMONICA unit within 6\" of this model with a Stratagem, roll one D6: if the result is greater than the current battle round number, you gain 1CP."
+        },
+        {
+            "title": "Lord of Deceit (Aura)",
+            "description": "Each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP."
+        },
+        {
+            "title": "Greater Daemon of Tzeentch (Aura)",
+            "description": "While a friendly TZEENTCH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army's Shadow of Chaos."
+        }
+    ],
+    "wargearabilities": [
+        
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Kairos Fateweaver"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Infernal Gateway, Staff of Tomorrow"
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "270"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "1-7 wounds remaining",
+        "description": "While this model has 1-7 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Monster",
+        "Character",
+        "Epic Hero",
+        "Fly",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Tzeentch",
+        "Kairos Fateweaver"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
+},
+"karanak": {
+    "title": "Karanak",
+    "basesize": "75 x 42mm",
+    "movement": "12\"",
+    "toughness": "4",
+    "save": "7+",
+    "invuln": "4+",
+    "wounds": "5",
+    "leadership": "7+",
+    "oc": "1",
+    "rangedweapons": [
+        
+    ],
+    "meleeweapons": [
+        {
+            "title": "Soul-rending fangs",
+            "profiles": [
+                {
+                    "title": "example",
+                    "abilities": [
+                        "precision"
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+
+    ],
+    "coreabilities": [
+        "Deep Strike",
+        "Leader"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Pack Leader",
+            "description": "While this model is leading a unit, you can re-roll Advance and Charge rolls made for that unit."
+        },
+        {
+            "title": "Prey of the Blood God",
+            "description": "At the start of the first battle round, select one enemy unit to be this model's prey. Weapons equipped by models in this model's unit have the [LETHAL HITS] ability when targeting this model's prey. Each time this model's prey is destroyed, select one new enemy unit to be this model's prey."
+        }
+    ],
+    "wargearabilities": [
+        {
+            "title": "Collar of Khorne",
+            "description": "The bearer has the Feel No Pain 3+ ability against Psychic Attacks."
+        }
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Karanak"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "soul-rending fangs, collar of Khorne."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "65"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "",
+        "description": ""
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "true",
+        "bodyguard": "false",
+        "units": [
+            "Flesh Hounds"
+        ]
+    },
+    "keywords": [
+        "Beast",
+        "Character",
+        "Epic Hero",
+        "Chaos",
+        "Daemon",
+        "Khorne",
+        "Karanak"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
 }
 }
