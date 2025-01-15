@@ -2271,5 +2271,202 @@
     "factionkeywords": [
         "Legiones Daemonica"
     ]
+},
+"keeperofsecrets": {
+    "title": "Keeper of Secrets",
+    "basesize": "100mm",
+    "movement": "14\"",
+    "toughness": "10",
+    "save": "5+",
+    "invuln": "4+",
+    "wounds": "18",
+    "leadership": "6+",
+    "oc": "5",
+    "rangedweapons": [
+        {
+            "title": "Living whip",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "assault"
+                    ],
+                    "range": "12\"",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-1",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Phantasmagoria",
+            "profiles": [
+                {
+                    "title": "witchfire",
+                    "abilities": [
+                        "devastating wounds",
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "1"
+                },
+                {
+                    "title": "focused witchfire",
+                    "abilities": [
+                        "devastating wounds",
+                        "hazardous",
+                        "psychic"
+                    ],
+                    "range": "18\"",
+                    "attacks": "9",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "1"
+                }
+            ]
+        }
+    ],
+    "meleeweapons": [
+        {
+            "title": "Ritual knife",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "3",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "2"
+                }
+            ]
+        },
+        {
+            "title": "Snapping claws",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+                        "devastating wounds",
+                        "extra attacks"
+                    ],
+                    "range": "Melee",
+                    "attacks": "4",
+                    "s": "2+",
+                    "strength": "6",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        },
+        {
+            "title": "Witstealer sword",
+            "profiles": [
+                {
+                    "title": "",
+                    "abilities": [
+
+                    ],
+                    "range": "Melee",
+                    "attacks": "6",
+                    "s": "2+",
+                    "strength": "8",
+                    "ap": "-2",
+                    "damage": "3"
+                }
+            ]
+        }
+    ],
+    "wargearoptions": [
+        "This model can be equipped with one of the following: Living whip, Ritual knife, Shining aegis"
+    ],
+    "coreabilities": [
+        "Deadly Demise D6",
+        "Deep Strike"
+    ],
+    "factionabilities": [
+        "The Shadow of Chaos"
+    ],
+    "abilities" : [
+        {
+            "title": "Daemon Lord of Slaanesh (Aura)",
+            "description": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1."
+        },
+        {
+            "title": "Mesmerising Form",
+            "description": "Each time an attack targets this model, subtract 1 from the Hit roll."
+        },
+        {
+            "title": "Greater Daemon of Slaanesh (Aura)",
+            "description": "While a friendly SLAANESH LEGIONES DAEMONICA unit is within 6\" of this model, that unit is within your army's Shadow of Chaos."
+        }
+    ],
+    "wargearabilities": [
+        {
+            "title": "Shining Aegis",
+            "description": "The bearer has the Feel No Pain 5+ ability."
+        }
+    ],
+    "choiceability" : {
+        "title": "",
+        "choices": [
+            {
+                
+            }
+        ]
+    },
+    "unitcomposition": {
+        "models": [
+            "1 Keeper of Secrets"
+        ],
+        "equipped": [
+            {
+                "who": "This model",
+                "what": "Phantasmagoria, snapping claws, witstealer sword."
+            }
+        ],
+        "sizes": [
+            {
+                "number": "1",
+                "cost": "290"
+            }
+        ]
+    },
+    "damaged": {
+        "threshold": "1-6 wounds remaining",
+        "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+    },
+    "other": [
+        
+    ],
+    "leaderbodyguard": {
+        "leader": "false",
+        "bodyguard": "false",
+        "units": [
+
+        ]
+    },
+    "keywords": [
+        "Monster",
+        "Character",
+        "Psyker",
+        "Chaos",
+        "Daemon",
+        "Slaanesh",
+        "Keeper of Secrets"
+    ],
+    "factionkeywords": [
+        "Legiones Daemonica"
+    ]
 }
 }
